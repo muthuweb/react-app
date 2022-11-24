@@ -1,11 +1,12 @@
 import "./Header.scss";
 
+import Cart from "../Cart/Cart";
 import MainMenu from "../MainMenu/MainMenu";
 import menuData from "../MainMenu/MainMenuData";
 
 import logo from "../../../src/Assets/img/logo.png";
 
-function Header() {
+function Header(props) {
   return (
     <div className="main-head">
       <nav className="navbar navbar-expand-lg">
@@ -15,6 +16,7 @@ function Header() {
             {/* <img src={require("../../../src/Assets/img/logo.png")} alt="Logo"/> */}
           </a>
           <MainMenu menuList={menuData} />
+          <Cart count={props.cartQty} />
         </div>
       </nav>
     </div>

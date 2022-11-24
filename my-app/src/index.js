@@ -5,6 +5,7 @@ import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
+  // runs in StrictMod
   <React.StrictMode>
     <App />
   </React.StrictMode>

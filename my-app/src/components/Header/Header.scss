@@ -1,0 +1,28 @@
+.main-head .navbar {
+  background-color: #1f2732;
+  padding: 20px 0;
+
+  .navbar-brand {
+    margin-left: 20px;
+    img {
+      max-width: 140px;
+    }
+  }
+
+  .navbar-nav {
+    .nav-link {
+      color: #fff;
+      font-size: 18px;
+      padding: 8px 20px;
+      text-transform: uppercase;
+      border-radius: 5px;
+      margin: 0 5px;
+      background-color: transparent;
+      transition: all 0.3s;
+
+      &:hover {
+        background-color: #a51d89;
+      }
+    }
+  }
+}

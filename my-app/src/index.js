@@ -1,4 +1,7 @@
+//call this only here,
+// In older version, we need to call this on all the jsx file.
 import React from 'react';
+
 import ReactDOM from 'react-dom/client';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
